@@ -7,7 +7,62 @@
   <title>DeepWay: Edge Trader MAC SUP</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="favicon.png">
-</head>
+    <style>
+            body {
+              margin: 0;
+              font-family: Arial, sans-serif;
+              background: linear-gradient(135deg, #0f1117, #101c3c);
+              color: #fff;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+              padding: 40px 20px;
+            }
+            h1 {
+              font-size: 2.5em;
+              color: #00ffae;
+              margin-bottom: 10px;
+            }
+            p.subtitle {
+              font-size: 1.2em;
+              color: #ccc;
+              margin-bottom: 40px;
+            }
+            section {
+              max-width: 800px;
+              width: 100%;
+              margin-bottom: 40px;
+            }
+            .features {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+              gap: 20px;
+              margin-top: 20px;
+            }
+            .feature-box {
+              background-color: #1e253a;
+              border-radius: 10px;
+              padding: 20px;
+              font-size: 0.95em;
+              border: 1px solid #2e3757;
+            }
+            .cta-button {
+              background-color: #00ffae;
+              color: #000;
+              padding: 15px 30px;
+              font-size: 1.1em;
+              border: none;
+              border-radius: 6px;
+              cursor: pointer;
+              margin-top: 40px;
+              transition: background 0.3s;
+            }
+            .cta-button:hover {
+              background-color: #00e09a;
+            }
+        </style>
+    </head>
 <body>
   <div class="container">
     <h1>DeepWay: Edge Trader MAC SUP</h1>
@@ -18,6 +73,33 @@
     </div>
     <footer>© 2025 DeepWay</footer>
   </div>
+  <section>
+    <h2>Como funciona?</h2>
+    <div class="features">
+      <div class="feature-box">
+        <strong>SMA (8 e 21)</strong><br>
+        Identifica cruzamentos de média com sensibilidade ideal.
+      </div>
+      <div class="feature-box">
+        <strong>Pivot Point SuperTrend</strong><br>
+        Indica reversões reais com confirmação estatística.
+      </div>
+      <div class="feature-box">
+        <strong>RSI Otimizado</strong><br>
+        Avaliação dinâmica de força e exaustão de movimento.
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>O que entregamos?</h2>
+    <div class="features">
+      <div class="feature-box">58 ativos monitorados</div>
+      <div class="feature-box">4 timeframes simultâneos</div>
+      <div class="feature-box">Alertas via Telegram</div>
+      <div class="feature-box">Diário técnico incluso</div>
+    </div>
+  </section>
   <script src="dashboard.js"></script>
 </body>
 </html>
