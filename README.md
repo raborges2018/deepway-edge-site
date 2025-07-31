@@ -52,10 +52,10 @@ Desenvolver um sistema automatizado e inteligente para análise e operação no 
 
 | Item                    | Valor Estimado |
 |-------------------------|----------------|
-| Desenvolvimento         | US$ 3.000      |
-| Infraestrutura (ano)    | US$ 7.860      |
+| Desenvolvimento         | US$ 12.500     |
+| Infraestrutura (ano)    | US$ 17.860     |
 | Contingência (20%)      | US$ 2.172      |
-| **Total 1º Ano**        | **US$ 13.032** |
+| **Total 1º Ano**        | **US$ 35.532** |
 
 ---
 
