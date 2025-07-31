@@ -6,12 +6,13 @@ body {
     color: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    padding: 2em;
     text-align: center;
 }
 .container {
-    max-width: 600px;
+    width: 100%;
+    max-width: 1000px;
 }
 h1 {
     color: #00ff88;
@@ -23,12 +24,30 @@ h1 {
     color: #ccc;
 }
 .status {
-    margin-top: 2em;
-    font-size: 1em;
+    margin-top: 1em;
+    font-size: 1.1em;
     color: #999;
 }
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 12px;
+    margin-top: 2em;
+}
+.asset-card {
+    background: #1a1e25;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 0.9em;
+    transition: transform 0.2s;
+}
+.asset-card:hover {
+    transform: scale(1.05);
+    background: #222;
+}
 footer {
-    margin-top: 4em;
+    margin-top: 3em;
     font-size: 0.9em;
     color: #444;
 }
